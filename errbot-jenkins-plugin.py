@@ -26,8 +26,8 @@ class ErrbotJenkinsPlugin(BotPlugin):
         return "Example"
 
     @arg_botcmd('job', type=str)
-    def jenkins_find_job(self, message, args):
-        return args.job
+    def jenkins_find_job(self, message, job=None):
+        return job
 
 
     @arg_botcmd('name', type=str)
