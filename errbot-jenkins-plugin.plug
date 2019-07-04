@@ -1,5 +1,5 @@
 [Core]
-name = errbot-jenkins-plugin
+name = Jenkins
 module = errbot-jenkins-plugin
 
 [Documentation]
@@ -10,4 +10,3 @@ version = 3
 
 [Errbot]
 max = 6.1.1
-
