@@ -1,0 +1,13 @@
+[Core]
+name = errbot-jenkins-plugin
+module = errbot-jenkins-plugin
+
+[Documentation]
+description = Handle Jenkins using errbot.
+
+[Python]
+version = 3
+
+[Errbot]
+max = 6.1.1
+
